@@ -9,10 +9,9 @@ function App() {
   return (
      <Layout>
       <Routes>
-        {/* <Route path="/" element={<Navigate to="/scanner" replace />} /> */}
+        <Route path="/" element={<QRScanner />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/scanner" element={<QRScanner />} />
-        {/* <Route path="/history" element={<RecentHistory />} /> */}
       </Routes>
     </Layout>
   )
